@@ -1,0 +1,11 @@
+query Input {
+  cart {
+    attribute(key: "straight_payments"){
+      value
+    }
+  }
+  paymentMethods {
+    id
+    name
+  }
+}
